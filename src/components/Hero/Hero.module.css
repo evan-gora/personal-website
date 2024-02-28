@@ -51,7 +51,8 @@
 }
 
 .heroImg {
-  width: 50%;
+  width: 350px;
+  height: auto;
   z-index: 1;
 
   animation-name: floating;
@@ -62,7 +63,7 @@
 
 @keyframes floating {
   0% {
-    transform: translate(0, 10px)
+    transform: translate(0, 0px)
   }
   50% {
     transform: translate(0, 5px);
@@ -98,4 +99,14 @@
   background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
 }

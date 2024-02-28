@@ -1,10 +1,10 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
+import profile from "../../assets/hero/profile.png"
 
-const Hero = () => {
+export const Hero = () => {
   return (
-    <section className={styles.Container}>
+    <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Evan</h1>
         <p className={styles.description}>
@@ -14,11 +14,10 @@ const Hero = () => {
         </p>
         <a href="mailto:evan.gora1@gmail.com" className={styles.contactBtn}>Contact Me</a>
       </div>
-      <img src={getImageUrl("images/profile.png")} alt="Profile Image of me" className={styles.heroImg} />
+      <img src={profile} alt="Profile Image of me" className={styles.heroImg} />
       <div className={styles.topBlur} />
       <div className={styles.botomBlur} /> 
     </section>
   );
 };
 
-export default Hero;
