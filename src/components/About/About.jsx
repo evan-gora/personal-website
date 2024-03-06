@@ -8,7 +8,7 @@ import int from "../../assets/about/interests.png"
 
 export const About = () => {
     return(
-    <section className={styles.container}>
+    <section className={styles.container} id = "about">
         <h2 className={styles.title}>About</h2>
         <div className={styles.content}>
             <img src={abtImg} alt="About Image" className={styles.aboutImage} />
