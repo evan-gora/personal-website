@@ -9,5 +9,6 @@ Currently, two official plugins are available:
 
 # About the Project
 
-This project was created because I wanted to learn more about web development, as well as have a place to store any future projects. This website was a great learning experience,
-as I had no prior experience using HTML, JavaScript, or CSS. I followd a tutorial for getting everything set up with React, as well as for the basic design of the website. *This design is not my own*. I simply modified the design to make it more personalized, and updated my experiences and projects to match my own. 
+This is a project I created as a way to learn more about front-end development. It is a good way for users to access any information about my interests, skills,
+or projects. This was a challenge for me, as I had never done any front-end development before, so I had to learn React, HTML, and CSS while I was working on this 
+project. The design for the website came from a tutorial I was loosely following, and I edited it slightly to make it look more how I liked it.
