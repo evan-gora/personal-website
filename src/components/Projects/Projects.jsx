@@ -21,7 +21,8 @@ export const Projects = () => {
                     <li className={styles.skill}>Numpy</li>
                 </ul>
                 <div className={styles.links}>
-                    <a href="https://github.com/evan-gora/PremScraper" className={styles.link}>Source Code</a>
+                    <a href="https://github.com/evan-gora/PremScraper" className={styles.link}>Source</a>
+                    <a href="https://www.kaggle.com/datasets/evangora/premier-league-data" className={styles.link}>Dataset</a>
                 </div>
             </div>
             <div className={styles.project}>
@@ -33,7 +34,7 @@ export const Projects = () => {
                     <li className={styles.skill}>Pytorch</li>
                 </ul>
                 <div className={styles.links}>
-                    <a href="https://github.com/evan-gora/CIFAR10CNN" className={styles.link}>Source Code</a>
+                    <a href="https://github.com/evan-gora/CIFAR10CNN" className={styles.link}>Source</a>
                 </div>
             </div>
         </div>
