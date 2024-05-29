@@ -2,7 +2,6 @@ import React from "react";
 
 import styles from "./Projects.module.css"
 
-import projects from "../../data/projects.json"
 import premLogo from "../../assets/projects/premlogo.png"
 import cnnImg from "../../assets/projects/cnnImage.png"
 
