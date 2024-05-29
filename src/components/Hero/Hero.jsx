@@ -10,7 +10,7 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a sophomore computer science student at Miami University with
           experience using many different languages such as Java, C++, and
-          Python. Reach out if you would like to learn more!
+          Python.
         </p>
         <a href="mailto:evan.gora1@gmail.com" className={styles.contactBtn}>Contact Me</a>
       </div>
