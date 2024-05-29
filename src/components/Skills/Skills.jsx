@@ -5,6 +5,8 @@ import javaLogo from "../../assets/skills/javalogo.png"
 import pythonLogo from "../../assets/skills/pythonlogo.png"
 import mySQLlogo from "../../assets/skills/mysql.png"
 import pytorchLogo from "../../assets/skills/pytorchlogo.png"
+import pandasLogo from "../../assets/skills/pandaslogo.png"
+import numpyLogo from "../../assets/skills/numpylogo.png"
 import htmlLogo from "../../assets/skills/htmllogo.png"
 import cssLogo from "../../assets/skills/csslogo.png"
 import Resume from "../../assets/skills/resume.pdf"
@@ -26,10 +28,14 @@ export const Skills = () => (
                 <li className={styles.skillsItem}>
                     <img src={mySQLlogo} alt="mySQL Logo" className={styles.skillsImage} />
                 </li>
-            </ul>
-            <ul className={styles.skillsItems}>
                 <li className={styles.skillsItem}>
                     <img src={pytorchLogo} alt="Pytorch Logo" className={styles.skillsImage}/>
+                </li>
+                <li className={styles.skillsItem}>
+                    <img src={pandasLogo} alt="Pandas Logo" className={styles.skillsImage}/>
+                </li>
+                <li className={styles.skillsItem}>
+                    <img src={numpyLogo} alt="numPy Logo" className={styles.skillsImage}/>
                 </li>
                 <li className={styles.skillsItem}>
                     <img src={htmlLogo} alt="HTML Logo" className={styles.skillsImage} />
