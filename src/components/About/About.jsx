@@ -14,24 +14,24 @@ export const About = () => {
             <img src={abtImg} alt="About Image" className={styles.aboutImage} />
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
-                    <img src={calc} alt="Student Image" />
+                    <img src={calc} alt="Student Image" className={styles.aboutItemImage}/>
                     <div className={styles.aboutItemText}>
                         <h3>Student</h3>
                         <p>I am currently a sophomore studying computer science at Miami University. I am interested in internship opportunites for the summer of 2025.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src={exp} alt="Experiance Image" />
+                    <img src={exp} alt="Experiance Image" className={styles.aboutItemImage}/>
                     <div className={styles.aboutItemText}>
                         <h3>Experience</h3>
                         <p>Most of my experience is in Java development, but I have some experience with many other languages such as Python and C++.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src={int} alt="Interests Image" />
+                    <img src={int} alt="Interests Image" className={styles.aboutItemImage}/>
                     <div className={styles.aboutItemText}>
                         <h3>Interests</h3>
-                        <p>I have interests in areas such as backend development and artifical intelligence. I am currently enrolled in a machine learning class and am working on expanding my knowledge on the subject, with plans to create a project leveraging AI.</p>
+                        <p>I am not sure what exactly I want to do and I love to explore all different parts of computer science. I am currently working on further improving my neural network to be over 90% accurate, as well as a Flask application for my Premier League data.</p>
                     </div>
                 </li>
             </ul>
