@@ -31,7 +31,7 @@ export const About = () => {
                     <img src={int} alt="Interests Image" className={styles.aboutItemImage}/>
                     <div className={styles.aboutItemText}>
                         <h3>Interests</h3>
-                        <p>I am not sure what exactly I want to do and I love to explore all different parts of computer science. I am currently working on further improving my neural network to be over 90% accurate, as well as a Flask application for my Premier League data.</p>
+                        <p>I am not sure what exactly I want to do and I love to explore all different parts of computer science. I am currently working on further improving my neural network to be over 90% accurate, as well as a DJango application for my Premier League data.</p>
                     </div>
                 </li>
             </ul>
