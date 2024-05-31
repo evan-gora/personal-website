@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Evan Gora</h1>
         <p className={styles.description}>
-          I am a sophomore computer science student at Miami University with
+          I am a junior computer science student at Miami University with
           experience using many different languages such as Java, C++, and
           Python.
         </p>

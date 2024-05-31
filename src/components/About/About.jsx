@@ -17,7 +17,7 @@ export const About = () => {
                     <img src={calc} alt="Student Image" className={styles.aboutItemImage}/>
                     <div className={styles.aboutItemText}>
                         <h3>Student</h3>
-                        <p>I am currently a sophomore studying computer science at Miami University. I am interested in internship opportunites for the summer of 2025.</p>
+                        <p>I am currently a junior studying computer science at Miami University. I am interested in internship opportunites for the summer of 2025.</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
