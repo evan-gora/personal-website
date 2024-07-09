@@ -35,6 +35,21 @@ export const Projects = () => {
                     <a href="https://github.com/evan-gora/CIFAR10CNN" className={styles.link}>Source</a>
                 </div>
             </div>
+            <div className={styles.project}>
+                <img src={premLogo} alt="Premier League Logo" className={styles.image}/>
+                <h3 className={styles.projectTitle}>EPL Insights</h3>
+                <p className={styles.description}>A Django web application for viewing over 50,000 data points related to the Premier League.</p>
+                <ul className={styles.skills}>
+                    <li className={styles.skill}>Django</li>
+                    <li className={styles.skill}>Python</li>
+                    <li className={styles.skill}>HTML</li>
+                    <li className={styles.skill}>CSS</li>
+                </ul>
+                <div className={styles.links}>
+                    <a href="https://github.com/evan-gora/CIFAR10CNN" className={styles.link}>Source</a>
+                    <a href="https://epl-insights-production.up.railway.app/" className={styles.link}>Demo</a>
+                </div>
+            </div>
         </div>
     </section>
 
