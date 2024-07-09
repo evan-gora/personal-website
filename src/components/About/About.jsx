@@ -24,14 +24,14 @@ export const About = () => {
                     <img src={exp} alt="Experiance Image" className={styles.aboutItemImage}/>
                     <div className={styles.aboutItemText}>
                         <h3>Experience</h3>
-                        <p>Most of my experience is in Java development, but I have some experience with many other languages such as Python and C++.</p>
+                        <p>Most of my experience is in Java development, but I have some experience with many other languages such as Python and C++. I am also an AWS Certified Cloud Practitioner</p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={int} alt="Interests Image" className={styles.aboutItemImage}/>
                     <div className={styles.aboutItemText}>
                         <h3>Interests</h3>
-                        <p>I am not sure what exactly I want to do and I love to explore all different parts of computer science. I am currently working on further improving my neural network to be over 90% accurate, as well as a Django application for my Premier League data.</p>
+                        <p>I am interested in all aspects of Computer Science and software development. I recently became AWS Certified and finished up my DJango web application for Premier League data. I am currently working on improving my neural network for the CIFAR10 dataset and also creating a Java based API with Spring Boot for an iOS application.</p>
                     </div>
                 </li>
             </ul>
